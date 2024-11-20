@@ -17,7 +17,11 @@ a {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
-    margin: 220px;
+}
+
+nav {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .logo-principal {
@@ -32,7 +36,8 @@ a {
 }
 
 .content {
-    margin: 0 10em 0 10em;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: lightgray;
     font-size: 24px;
     border: solid black;
@@ -45,6 +50,14 @@ a {
 
 nav a:hover {
     color: royalblue;
+    border-radius: 0;
+    transition: all 0.3s;
+}
+
+nav a:not(:hover) {
+    background-color: lightblue;
+    border-radius: 4px;
+    transition: all 0.3s;
 }
 
 .tp {
@@ -57,4 +70,11 @@ nav a:hover {
     padding: 8px;
     background-color: lightblue;
     border-radius: 4px;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
