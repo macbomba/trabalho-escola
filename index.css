@@ -78,3 +78,20 @@ nav a:not(:hover) {
     justify-content: center;
     width: 100%;
 }
+
+@media (width <= 700px) {
+    ul {
+        display: block;
+        justify-self: center;
+    }
+
+    li {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
