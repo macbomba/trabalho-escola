@@ -1,0 +1,25 @@
+.jogo {
+    width: 1000px;
+    height: 600px;
+}
+
+@media (width <= 1315px) {
+    .jogo {
+        width: 800px;
+        height: 600px;
+    }
+}
+
+@media (width <= 1120px) {
+    .jogo {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media (width <= 920px) {
+    .jogo {
+        width: 400px;
+        height: 600px;
+    }
+}
